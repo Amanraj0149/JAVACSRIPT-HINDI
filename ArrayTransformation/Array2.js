@@ -23,3 +23,16 @@ function checkAdult(age){
 }
 console.log(ages)
 console.log(result)
+
+// Reduce method in array
+let arr=[1,2,3,4,5]
+let sum=arr.reduce(addNum)
+
+function addNum(a,b){
+    console.log(a)
+    console.log(b)
+    
+    return a+b
+}
+console.log(sum)
+//array.reduce(function(total,currentValues,currentIndex,arr))
