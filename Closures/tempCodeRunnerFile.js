@@ -1,0 +1,5 @@
+console.time()
+// // console.log(square(5))
+// // let result=memoize(square)
+// console.log(result(5))
+// console.timeEnd()
